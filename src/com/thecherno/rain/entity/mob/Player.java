@@ -122,9 +122,9 @@ public class Player extends Mob {
 		}
 		double tileX = Math.floor((float) x / 16f);
 		double tileY = Math.floor((float) y / 16f);
-		if(level.getTile((int)tileX,(int) tileY) == Tile.Black_Rock){
-			ammo = ammo + 100;
-		}
+//		if(level.getTile((int)tileX,(int) tileY) == Tile.Black_Rock){
+//			ammo = ammo + 100;
+//		}
 		
 		clear();
 		updateHealth((int)x,(int)y);
