@@ -89,7 +89,7 @@ public class Screen {
 			for (int x = 0; x < width; x++) {
 				int xp = x + xOffset;
 				if (xp < 0 || xp >= width) continue;
-				pixels[xp + yp * width] = Sprite.grass.pixels[(x & 15) + (y & 15) * Sprite.grass.SIZE];
+				pixels[xp + yp * width] = Sprite.Grass.pixels[(x & 15) + (y & 15) * Sprite.Grass.SIZE];
 			}
 		}
 	}

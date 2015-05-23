@@ -87,6 +87,9 @@ public class Player extends Mob {
 	// (97) Added the speed variable to the method, changed xa and ya to be doubles,
 	// and made sure that xa and ya are modified according to that speed variable.
 	public void update() {
+		System.out.println("X: " + x);
+		System.out.println("Y: " + y);
+		
 		if (walking) animSprite.update();
 		else animSprite.setFrame(0);
 		if (fireRate > 0) fireRate--;

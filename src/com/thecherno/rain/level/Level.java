@@ -400,7 +400,7 @@ public class Level {
 	// (61) Colours are now checked using the constants found in the Tile class, and spawn
 	// level tiles are returned based on the outcome of that.
 	public Tile getTile(int x, int y) {
-		if (x < 0 || y < 0 || x >= width || y >= height) return Tile.voidTile;
+		if (x < 0 || y < 0 || x >= width || y >= height) return Tile.Light_Green_Grass;
 		if (tiles[x + y * width] == 0xffffff00) return Tile.Light_Green_Grass;
 		if (tiles[x + y * width] == Tile.col_Road) return Tile.Road;
 		//if (tiles[x + y * width] == Tile.col_Mine) return Tile.;

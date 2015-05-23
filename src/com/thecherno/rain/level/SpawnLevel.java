@@ -22,6 +22,8 @@ import java.io.IOException;
 
 import javax.imageio.ImageIO;
 
+import com.thecherno.rain.entity.mob.Dummy;
+
 // The SpawnLevel class. This class represents a level where the player first spawns.
 // The class contains everything necessary to load tiles from a file.
 public class SpawnLevel extends Level {
@@ -51,9 +53,9 @@ public class SpawnLevel extends Level {
 		}
 		// Add a Chaser mob and 5 Dummy mobs into the level!
 		//add(new Chaser(20, 55));
-		//for (int i = 0; i < 1; i++) {
-		//	add(new Dummy(20, 55));
-		//}
+		for (int i = 0; i < 1; i++) {
+			add(new Dummy(20, 55));
+		}
 	}
 
 	// The generateLevel() method. This goes through every pixel of our level file image,

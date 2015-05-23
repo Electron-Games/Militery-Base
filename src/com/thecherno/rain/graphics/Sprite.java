@@ -56,7 +56,7 @@ public class Sprite {
 //	public static Sprite Leaves = new Sprite(16, 3, 1, SpriteSheet.spawn_level);
 //	public static Sprite White_Wood = new Sprite(16, 4, 1, SpriteSheet.spawn_level);
 //	public static Sprite Clear_water = new Sprite(16, 5, 1, SpriteSheet.spawn_level);
-	public static Sprite Light_Green_Grass = new Sprite(16, 0, 2, SpriteSheet.spawn_level);
+	public static Sprite Grass = new Sprite(16, 0, 2, SpriteSheet.spawn_level);
 //	public static Sprite Mossy_Black_Rock = new Sprite(16, 1, 2, SpriteSheet.spawn_level);
 //	public static Sprite Orange_Brick = new Sprite(16, 2, 2, SpriteSheet.spawn_level);
 //	public static Sprite Orange_Leaves = new Sprite(16, 3, 2, SpriteSheet.spawn_level);
